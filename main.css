@@ -112,7 +112,13 @@ html, body {
   display: grid;
   position: relative;
   text-align: left;
-  margin: 90px 150px 0 350px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.title-main {
+  margin-left: 80px;
+  margin-top: 70px;
 }
 
 .title-main h1 {
@@ -138,6 +144,7 @@ html, body {
   border-width: 1px;
   background-color: #e4dede;
 }
+
 
 .footer-section  {
   border-top: double;
