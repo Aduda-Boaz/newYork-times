@@ -140,5 +140,46 @@ html, body {
   width: 40%;
   height: 5px;
   color: grey;
+}
 
+.all-channels {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.all-channels ul li a {
+  color: black;
+  font-size: small;
+}
+
+.channels-categories {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.channels-categories ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+}
+
+.side-subscription {
+  border-left: solid;
+  border-width: 1px;
+  border-color: rgb(183, 189, 189);
+}
+
+.side-subscription h5 {
+  margin-left: 20px;
+}
+
+.side-subscription ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.sub-side {
+  font-weight: bolder;
 }
