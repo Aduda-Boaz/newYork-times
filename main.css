@@ -108,6 +108,37 @@ html, body {
   margin-bottom: 3px;
 }
 
+.main-section {
+  display: grid;
+  position: relative;
+  text-align: left;
+  margin: 90px 150px 0 350px;
+}
+
+.title-main h1 {
+  text-align: left;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.title_social {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.social_icon {
+  display: flex;
+  margin:10px;
+  border: solid;
+  padding: 5px;
+  border-color: #e8e8e8;
+  border-radius: 50%;
+  border-width: 1px;
+  background-color: #e4dede;
+}
+
 .footer-section  {
   border-top: double;
   color: rgb(114, 112, 112);
