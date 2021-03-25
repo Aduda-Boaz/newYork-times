@@ -116,8 +116,24 @@ html, body {
   margin-right: 250px;
 }
 
+.btn-authentication {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 30px;
+  border-radius: 7%;
+  color: white;
+  background-color: #437e94;
+  font-size: smaller;
+  font-weight: bold;
+}
+
 .title-main {
-  margin-left: 80px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 70px;
 }
 
@@ -145,6 +161,33 @@ html, body {
   background-color: #e4dede;
 }
 
+.article_grid {
+  display: block;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscription_article {
+  display: flex;
+  align-content: center;
+}
+
+.article_sign {
+  display: block;
+  width: 400px;
+}
+
+.article_sign span {
+  font-style: italic;
+}
+
+.btn_signup {
+  width: 20%;
+  height: 10%;
+  margin-top: 10px;
+}
+
 
 .footer-section  {
   border-top: double;
@@ -155,6 +198,37 @@ html, body {
   margin-right: 50px;
   border-width: 4px;
   border-color: rgb(194, 189, 190);
+}
+
+.appreciate_reader {
+  margin: 0 35% 0 30%;
+  width: 100%;
+  align-content: center;
+}
+
+.line_mark {
+  margin: 0;
+  width: 15%;
+  height: 2px;
+  background-color: rgb(194, 184, 184);
+  border: none;
+}
+
+.editor_side {
+  position: relative;
+  justify-items: center;
+  justify-content: center;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  top: 500px;
+  left: 50px;
+}
+
+.img_editor {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  font-size: 10px;
 }
 
 .footer-header {

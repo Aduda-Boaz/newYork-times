@@ -2,7 +2,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./nytimes_page.png)
+![screenshot](/nytimes_page.png)
 
 Additional description about the project and its features.
 
