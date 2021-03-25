@@ -214,6 +214,50 @@ html, body {
   border: none;
 }
 
+.theory_sections {
+  background-image: url("./assets/inflation-945.png");
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 20px auto 20px auto;
+}
+
+.theory {
+  font-weight: normal;
+  font-style: normal;
+  font-size: medium;
+  margin: 20px 40px 20px 40px;
+}
+
+.theory_sections {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.theory_font {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 17px;
+}
+
+.theory_grids {
+  margin-top: 100px;
+  font-size: smaller;
+  font-style: normal;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 200px;
+  font-weight: normal;
+}
+
+.theory_grids_2 {
+  font-size: smaller;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .editor_side {
   position: relative;
   justify-items: center;
@@ -225,10 +269,26 @@ html, body {
 }
 
 .img_editor {
-  display: flex;
-  flex-direction: column;
-  max-width: 50%;
-  font-size: 10px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  gap: 10px;
+  margin: 5px;
+}
+
+.more_space {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 10px;
+  margin-top: 45px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.space_news {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
 }
 
 .footer-header {
