@@ -374,6 +374,15 @@ body {
   font-size: 12px;
 }
 
+#form {
+  margin-left: 50px;
+}
+
+.comment-box {
+  width: 30%;
+  margin-top: 20px;
+}
+
 .footer-opt {
   display: flex;
   align-items: center;
