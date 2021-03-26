@@ -302,7 +302,7 @@ body {
   justify-content: center;
   grid-column: 3/4;
   grid-row: 1/2;
-  top: 500px;
+  top: 10px;
   left: 50px;
 }
 
@@ -311,7 +311,7 @@ body {
   grid-template-columns: 40% 60%;
   align-items: center;
   gap: 10px;
-  margin: 5px;
+  margin: 0;
 }
 
 .img_editor a {
@@ -322,8 +322,9 @@ body {
   display: grid;
   grid-template-columns: 40% 60%;
   align-items: center;
-  gap: 10px;
+  gap: 1px;
   margin: 5px;
+  width: 200px;
 }
 
 .describe_img {
