@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 
-html, 
-body {
+html,body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -153,7 +152,7 @@ body {
 
 .social_icon {
   display: flex;
-  margin:10px;
+  margin: 10px;
   border: solid;
   padding: 5px;
   border-color: #e8e8e8;
@@ -466,4 +465,3 @@ body {
 .sub-side {
   font-weight: bolder;
 }
-
