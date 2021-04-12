@@ -12,12 +12,8 @@ Additional description about the project and its features.
 - CSS
 
 ## Live Demo
-
-<<<<<<< HEAD
 [Live Demo Link](https://aduda-boaz.github.io/newYork-times/)
-=======
-[Live Demo Link](https://aduda-boaz.github.io/newYork-times)
->>>>>>> 266cdc8c75aa0a777cfdfaec7ebe56b290c4781c
+
 
 ## Authors
 
